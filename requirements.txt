@@ -1,11 +1,12 @@
---extra-index-url https://download.pytorch.org/whl/cpu
 matplotlib
 numpy
 pillow
-opencv-python-headless  # Use headless version to avoid GUI issues
+opencv-python
 tqdm
 uvicorn
 fastapi
 python-multipart
-torch==2.3.0+cpu
+# --extra-index-url https://download.pytorch.org/whl/cpu
+# torch==2.3.0+cpu
+torch
 torchvision==0.18.0+cpu
