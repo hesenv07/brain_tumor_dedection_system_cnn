@@ -7,7 +7,7 @@ import numpy as np
 import cv2
 import os
 import random
-from utils import get_transform
+from app.utils import get_transform
 
 class GradCAM:
     def __init__(self, model, target_layer):

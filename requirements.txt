@@ -1,7 +1,12 @@
-torch
-torchvision
 matplotlib
 numpy
 pillow
 opencv-python
 tqdm
+uvicorn
+fastapi
+python-multipart
+# --extra-index-url https://download.pytorch.org/whl/cpu
+# torch==2.3.0+cpu
+torch
+# torchvision==0.18.0+cpu
