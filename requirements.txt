@@ -2,7 +2,7 @@
 matplotlib
 numpy
 pillow
-opencv-python
+opencv-python-headless  # Use headless version to avoid GUI issues
 tqdm
 uvicorn
 fastapi
